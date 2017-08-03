@@ -1,0 +1,29 @@
+{
+  "name": "huoyun-orm",
+  "version": "1.0.5",
+  "description": "nodejs orm mysql",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjj0508403034/huoyun-orm.git"
+  },
+  "keywords": [
+    "nodejs",
+    "orm",
+    "mysql"
+  ],
+  "author": "wjj0508403034@126.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjj0508403034/huoyun-orm/issues"
+  },
+  "homepage": "https://github.com/wjj0508403034/huoyun-orm#readme",
+  "devDependencies": {
+    "orm": "^3.2.4",
+    "orm-transaction": "0.0.2",
+    "request-log4js": "^1.0.3"
+  }
+}
