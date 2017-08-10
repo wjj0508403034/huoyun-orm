@@ -1,6 +1,6 @@
 {
   "name": "huoyun-orm",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "nodejs orm mysql",
   "main": "src/index.js",
   "scripts": {
@@ -24,6 +24,6 @@
   "dependencies": {
     "orm": "^3.2.4",
     "orm-transaction": "0.0.2",
-    "request-log4js": "^1.1.0"
+    "request-log4js": "^1.1.2"
   }
 }
