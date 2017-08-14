@@ -22,8 +22,16 @@ module.exports = {
     }));
   },
 
-  Connect: function(cb) {
-    ORM.connect(DbConnectionUrl, cb);
+  connect: function() {
+    return new Promise(function(resolve, reject) {
+      ORM.connect(DbConnectionUrl, function(err, db) {
+        if (err) {
+          reject(err);
+          return;
+        }
+        resolve(db);
+      });
+    });
   },
 
   addTable: function(table) {
